@@ -1,18 +1,15 @@
 *.png
 *.asv
 *.toc
-uqdes
-Laplace_Approximation/Charlie_work
 *.tex
 *synctex*
 *.log
 *.aux
-.Rproj.user
+*.Rproj*
 *.mat
 *.RData
 *fskq*
 *.txt
-*importance_sampling.R
 *.Rhistory
 *.out
 *.snm
@@ -21,4 +18,3 @@ Laplace_Approximation/Charlie_work
 *.fig
 *.bib
 *.blg
-*laplace_diagnostic_slides.pptx
