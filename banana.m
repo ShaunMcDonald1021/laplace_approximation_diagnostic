@@ -1,4 +1,4 @@
-% Demo code for Section 6 of the manuscript. Applies the diagnostic in 2
+% Demo code for Section 6.2 of the manuscript. Applies the diagnostic in 2
 % dimensions to a "banana-shaped" function using "optimal" hyperparameters
 % (see Section 5.1 of manuscript). Note that, unlike the lap_diag and
 % diag_calib functions, this demo doesn't require FSKQ (Karvonen et al.

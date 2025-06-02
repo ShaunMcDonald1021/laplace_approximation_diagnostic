@@ -1,7 +1,10 @@
 # Code for stock assessment experiments as shown in Laplace diagnostic manuscript
 # NOTE: this demo is designed for Unix systems. The importance sampler uses forking
 # and WILL NOT WORK IN WINDOWS unless you manually change the number of cores to 1.
-# Make sure GH_stuff_timing.mat has been ran before running this
+# Make sure GH_stuff_timing.m has been ran before running this
+# Unfortunately, we have to bounce back and forth between MATLAB and R:
+# first generating the sparse grid points, then coming here to apply them to the actual function,
+# then porting the simulation results back to MATLAB to use the diagnostic and make figures
 library(mgcv)
 # Assuming you run this demo from the same location where laplace_diag_functions.R is.
 # If not, change the below line accordingly

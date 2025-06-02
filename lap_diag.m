@@ -3,7 +3,7 @@ function [post_mean, post_var, point_contribs]...
     Us, w_or_lambda, wce, s_star, options)
 
 % Runs the LA diagnostic for a given function. Make sure you download FSKQ
-% prior to running this (see README).
+% prior to running this.
 arguments
     % n*1 vector of interrogation values on log scale
     logf_inter double

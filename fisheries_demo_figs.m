@@ -1,4 +1,4 @@
-% This script generates Figures 7-13 from the manuscript, in which
+% This script generates Figures 9-12, 14-15 from the manuscript, in which
 % the LA diagnostic is applied to subsets of fisheries data from Aeberhard
 % et al. (2018)
 

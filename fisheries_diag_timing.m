@@ -1,10 +1,10 @@
 % This script calculates computation time for the diagnostic applied to the
 % fisheries data. The repetitions are to give us an accurate idea of
 % variability in computation time. Make sure FSKQ is downloaded prior to
-% running this (see README and Karvonen et al. 2018) and that
-% GH_stuff_timing.m and fisheries_demo.R have been ran (in that order).
+% running this (see Karvonen et al. 2018) and that
+% GH_stuff_timing.m and laplace_diag_demo.R have been ran (in that order).
 
-% From fisheries_demo.R
+% From laplace_diag_demo.R
 load('1970_demo_stuff.mat')
 load('2005_demo_stuff.mat')
 % From GH_stuff_timing.m

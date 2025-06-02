@@ -3,10 +3,10 @@ function [post_mean, w, wce, alph] =...
 
 % Calibrate the LA diagnostic in d dimensions, using a multivariate T
 % density as the test function. Make sure you download FSKQ prior to
-% running this (see README).
+% running this (see https://github.com/tskarvone/fskq).
 
 arguments
-    % Hyperparameters gamma and lambda (see Section 4.5 of manuscript)
+    % Hyperparameters gamma and lambda (see Sections 4-5 of manuscript)
     gam (1,1) {mustBePositive}
     lambda (1,1) {mustBePositive}
     % Dimensionality of domain

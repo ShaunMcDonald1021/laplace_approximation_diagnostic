@@ -1,3 +1,6 @@
+# None of this directly shows up in the manuscript, but we used it to check
+# the validity of importance samplers used on the fisheries data.
+
 library(mvtnorm)
 library(nleqslv)
 library(ismev)
@@ -7,7 +10,8 @@ library(stockassessment)
 
 # Fit SSM on last 4 years (2012-2015) of North Sea cod data
 check_model_good = function(n){
-  # Due to small amounts of data (I'm assuming), it's hard to get convergence and 
+  # Due to small amounts of data (I'm assuming), it's hard to get convergence on small
+  # windows of time, so we had to slide it around to get something that worked
   poss_start_years = numeric(0)
   
   dat = reduce(nscodData, year = (1963+n):2015, conf = nscodConf)

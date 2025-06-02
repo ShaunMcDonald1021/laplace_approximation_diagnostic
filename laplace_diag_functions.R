@@ -1,3 +1,4 @@
+# Helper functions for the Laplace diagnostic demo in R (with the fisheries data)
 # Dependencies: TMB, nleqslv, parallel, rmatio, mvnfast
 
 package_get = function(package_name, install_fun = function(c) install.packages(package_name)){

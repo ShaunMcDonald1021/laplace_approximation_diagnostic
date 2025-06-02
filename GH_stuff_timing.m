@@ -1,8 +1,8 @@
 % This script repeatedly creates a 2nd-order sparse Gauss-Hermite grid (as
 % in Karvonen et al. 2018) and saves it to a file. The file is ultimately
-% used in fisheries_demo.R. The 100 repetitions allow us to more accurately
+% used in laplace_diag_demo.R. The 100 repetitions allow us to more accurately
 % assess the variability in computation time for the diagnostic with this
-% grid. Make sure you download FSKQ prior to running this (see README).
+% grid. Make sure you download FSKQ prior to running this.
 % Note also that this is heavily based on part of demo.m from that repo.
 
 GH_times = zeros([1 100]);

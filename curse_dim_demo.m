@@ -1,4 +1,4 @@
-% This script generates Figure 6 from manuscript, showing the discrepancy
+% This script generates Figure 8 from the manuscript, showing the discrepancy
 % between shape differences and mass differences in high dimensions
 d = 72;
 v = 25921;

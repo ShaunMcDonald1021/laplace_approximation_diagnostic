@@ -1,5 +1,5 @@
-% Demo code for Section 6 of the manuscript. Applies the diagnostic in 2
-% dimensions to a "banana-shaped" function using "optimal" hyperparameters
+% Demo code for Section 6.1 of the manuscript. Applies the diagnostic in 2
+% dimensions to skewed and multimodal distribution.
 % (see Section 5.1 of manuscript). Note that, unlike the lap_diag and
 % diag_calib functions, this demo doesn't require FSKQ (Karvonen et al.
 % 2018): the interrogation grid is small enough that we can calculate the
